@@ -599,7 +599,7 @@ background: linear-gradient(
 
 .main-header {
   height: 75vh;
-  background: url('../img/projects/main.jpg') no-repeat bottom;
+  background: url('../img/projects/main.JPG') no-repeat bottom;
   min-height: 50%;
   background-attachment: fixed;
   background-size: cover;
