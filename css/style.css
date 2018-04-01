@@ -571,6 +571,11 @@ background: linear-gradient(
   overflow-y: hidden;
 
 }
+.space {
+  height: 80px;
+  width: 100%;
+  display: block;
+}
 .gallery {
   width: 300px;
   height: 250px;
