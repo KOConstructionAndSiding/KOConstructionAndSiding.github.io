@@ -267,9 +267,9 @@ a:active {
   background-size: contain;
   background-position:  center top;
   display: inline-block;
-  width: 50%;
+  width: 45%;
   float: right;
-  padding-right: 20%;
+  margin-right: 5%;
   height: 300px;
   position: relative;
 }
