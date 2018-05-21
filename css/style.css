@@ -625,7 +625,7 @@ background: linear-gradient(
 
 
 .KOLogo {
-    background: url('../img/KOLogoMain.png') bottom no-repeat;
+    background: url('../img/KOLogo.png') bottom no-repeat;
     display: inline-block;
     background-size: contain;
     margin-top: 100px !important;
