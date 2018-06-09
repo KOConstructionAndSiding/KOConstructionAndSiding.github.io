@@ -678,8 +678,6 @@ h4 {
     width: 50%;
     content: "";
     position: relative;
-  }
-{
     font-weight: normal;
   }
   .primary-content {
@@ -787,7 +785,6 @@ h4 {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
-}
 }
 .space {
   height: 100px;
