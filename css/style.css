@@ -114,8 +114,8 @@ a:active {
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
-  display: block !important;
-  width: 250px !important;
+  display: block;
+  width: 250px;
   height: 100px;
   font-family: Arial;
   color: #ffffff;
@@ -177,7 +177,7 @@ a:active {
   border: double 3px #878787;
   height: 400px;
   position: relative;
-  padding-bottom: 50px !important;
+  padding-bottom: 50px;
   margin: 75px 6.5%;
 }
 
@@ -206,9 +206,9 @@ a:active {
   background-color: #262626;
   color: white;
   height: 130px;
-  width: 130px !important;
+  width: 130px;
   position: relative;
-  padding-top: 20px !important;
+  padding-top: 20px;
   top: -65px;
 }
 
@@ -218,7 +218,7 @@ a:active {
   background-repeat: no-repeat;
   background-size: contain;
   display: inline-block;
-  padding-right: 100px !important;
+  padding-right: 100px;
   height: 75px;
   content: "";
   position: relative;
@@ -230,7 +230,7 @@ a:active {
   background-size: 250px, 50%;
   display: inline-block;
   float: left;
-  height: 250px !important;
+  height: 250px;
   width: 50%;
   content: "";
   position: relative;
@@ -238,12 +238,12 @@ a:active {
 .WorldFoods::before{
   background-image: url('../img/WorldFoods.png');
   background-repeat: no-repeat;
-  background-size: 250px, 50% !important;
-  display: inline-block !important;
+  background-size: 250px, 50%;
+  display: inline-block;
   float: left;
   background-position: 0;
   height: 200px;
-  width: 50% !important;
+  width: 50%;
   content: "";
   position: relative;
 }
@@ -262,7 +262,7 @@ a:active {
 }
 
 .contact-div-b {
-  background-image: url('../img/KOLogoBlack.png');
+  background-image: url('../img/KOLogoBlackO.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position:  center top;
@@ -326,20 +326,17 @@ a:active {
   background-size: cover;
 }
 /* Psudo Classes */
-.space {
-  margin-left: 10px;
-}
 
 .t-space {
-  margin-top: 25px !important;
+  margin-top: 25px;
 }
 
 .t-space200 {
-  margin-top: 200px !important;
+  margin-top: 200px;
 }
 
 .b-space {
-  margin-bottom: 25px !important;
+  margin-bottom: 25px;
 }
 
 .thumb {
@@ -362,7 +359,7 @@ a:active {
 }
 
 .no-padding {
-  padding: 0px !important;
+  padding: 0px;
 }
 
 .b-border {
@@ -382,142 +379,13 @@ a:active {
   display: inline-block;
   float: right;
   padding: 20px;
-  margin-bottom: 10px !important;
+  margin-bottom: 10px;
 }
 .thumb {
   margin: 10px;
   border-radius: 3px;
 }
-/* Media Queries */
-@media (max-width: 1044px) {
-  .TenderLoving::Before {
-    background-image: url('../img/TenderLovingSmallLogo.jpg');
-    background-repeat: no-repeat;
-    background-size: 150px, 50%;
-    display: inline-block !important;
-    float: left;
-    background-position: 30%, 0;
-    height: 125px;
-    width: 50% !important;
-    content: "";
-    position: relative;
-  }
-  .WorldFoods::Before {
-    background-image: url('../img/WorldFoods.png');
-    background-repeat: no-repeat;
-    background-size: 75%, 50% !important;
-    display: inline-block !important;
-    float: left;
-    background-position: 30%, 0;
-    height: 125px;
-    width: 50% !important;
-    content: "";
-    position: relative;
-  }
-{
-    font-weight: normal;
-  }
-  .primary-content {
-    width:90%;
-  }
 
-  .satisfaction::before {
-    height: 50px !important;
-    top: 10px !important;
-  }
-  
-
-  .block-a,
-  .block-b,
-  .block-c {
-    width: 90%;
-    height: auto;
-  }  
-
-.HiveB {
-  top: 200px;
-}
-
-
-
-
-.center {
-  width: 90%;
-}
-
-
-}
-
-@media (min-width: 1144px) {
-
-}
-
-@media (max-width: 1044px) {
-  .div-break-half-a {
-    display: block !important;
-    width: 100% !important;
-    padding: 0px !important;
-    margin-bottom: 50px;
-  }
-  
-  .div-break-half-b {
-    display: block !important;
-    width: 100% !important;
-    background-size: fill !important;
-    padding: 0px !important;
-    background-attachment: fixed;
-    height: 30vh !important;
-    margin-bottom: 50px;
-  }
-  .div-break-b {
-    width: 100% !important;
-    margin: 0px !important;
-    padding: 0px;
-  }
-
-  .break-a {
-    height: 0vh;
-  }
-  
-  .break-b {
-    height: 0vh;
-  }
-  h1 {  
-  font-size: 2rem; /* 90px/16px  */
-  border-left: 2px solid #fff;
-  border-bottom: none;
-  }
-.div-break-c{
-  background-color: darkgray;
-  background-size: 200%, 200%;
-}
-}
-
-@media (max-width: 724px) {
-
-.contact-div-a {
-  display: block;
-  width: 100%;
-  height: 300px;
-  float: none;
-}
-.contact-div-b {
-  display: block;
-  width: 100%;
-  background-position: center
-  margin: 0% 10%;
-  float: none;
-}
-
-.div-break-a {
-    text-align: center !important;
-    padding: 10px !important;
-    height: 750px !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-}
-}
-/* End Of Media Qs */
   .div-break-a {
   display: block;
   height: 80vh;
@@ -528,10 +396,10 @@ background: linear-gradient(
 
   width: 100%;
   min-height: 50%;
-  background-attachment: fixed !important;
-  background-size: cover !important;
+  background-attachment: fixed;
+  background-size: cover;
   color: white;
-  padding: 100px;
+  padding: 75px;
 }
 
 .div-break-half-a {
@@ -539,7 +407,7 @@ background: linear-gradient(
   width: 50%;
   float: left;
   padding: 0px;
-  padding-top: 50px !important;
+  padding-top: 50px;
   height: auto;
 }
 
@@ -572,7 +440,7 @@ background: linear-gradient(
 
 }
 .space {
-  height: 100px !important;
+  height: 100px;
   width: 100%;
   display: block;
 }
@@ -594,7 +462,7 @@ background: linear-gradient(
 
 
 .HiveB {
-  margin-top: 0px !important;
+  margin-top: 0px;
 }
 /*
 
@@ -628,8 +496,8 @@ background: linear-gradient(
     background: url('../img/KOLogo.png') bottom no-repeat;
     display: inline-block;
     background-size: contain;
-    margin-top: 100px !important;
-    height: 40vh !important;
+    margin-top: 100px;
+    height: 40vh;
     width: 100%;
 }
 }
@@ -782,3 +650,153 @@ h4 {
   from {opacity: .4} 
   to {opacity: 1}
 }
+/* Media Queries */
+@media (min-width: 1000px) {
+  .space {
+    height: 200px;
+  }
+}
+@media (min-width: 700px) {
+  .space {
+    height: 100px;
+  }
+}
+@media (max-width: 1044px) {
+  .TenderLoving::Before {
+    background-image: url('../img/TenderLovingSmallLogo.jpg');
+    background-repeat: no-repeat;
+    background-size: 150px, 50%;
+    display: inline-block;
+    float: left;
+    background-position: 30%, 0;
+    height: 125px;
+    width: 50%;
+    content: "";
+    position: relative;
+  }
+  .WorldFoods::Before {
+    background-image: url('../img/WorldFoods.png');
+    background-repeat: no-repeat;
+    background-size: 75%, 50%;
+    display: inline-block;
+    float: left;
+    background-position: 30%, 0;
+    height: 125px;
+    width: 50%;
+    content: "";
+    position: relative;
+  }
+{
+    font-weight: normal;
+  }
+  .primary-content {
+    width:90%;
+  }
+
+  .satisfaction::before {
+    height: 50px;
+    top: 10px;
+  }
+  
+
+  .block-a,
+  .block-b,
+  .block-c {
+    width: 90%;
+    height: auto;
+  }  
+
+.HiveB {
+  top: 200px;
+}
+
+
+
+
+.center {
+  width: 90%;
+}
+
+
+}
+
+
+@media (max-width: 1044px) {
+  .div-break-half-a {
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 50px;
+  }
+  
+  .div-break-half-b {
+    display: block;
+    width: 100%;
+    background-size: fill;
+    padding: 0px;
+    background-attachment: fixed;
+    height: 30vh;
+    margin-bottom: 50px;
+  }
+  .div-break-b {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .break-a {
+    height: 0vh;
+  }
+  
+  .break-b {
+    height: 0vh;
+  }
+  h1 {  
+  font-size: 2rem; /* 90px/16px  */
+  border-left: 2px solid #fff;
+  border-bottom: none;
+  }
+.div-break-c{
+  background-color: darkgray;
+  background-size: 200%, 200%;
+}
+
+.space {
+  height: 60px;
+}
+}
+@media (max-width: 724px) {
+
+.main-header {
+  background-attachment: scroll;
+  padding: 10px;
+  margin-bottom: -100px;
+
+.contact-div-a {
+  display: block;
+  width: 100%;
+  height: 300px;
+  float: none;
+}
+.contact-div-b {
+  display: block;
+  width: 100%;
+  background-position: center
+  margin: 0% 10%;
+  float: none;
+}
+
+.div-break-a {
+    text-align: center;
+    padding: 10px;
+    height: 700px;
+    font-size: .75rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+}
+.space {
+  height: 80px;
+}
+/* End Of Media Qs */
