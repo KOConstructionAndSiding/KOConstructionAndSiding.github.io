@@ -651,16 +651,9 @@ h4 {
   to {opacity: 1}
 }
 /* Media Queries */
-@media (min-width: 1000px) {
-  .space {
-    height: 200px;
-  }
-}
-@media (min-width: 700px) {
-  .space {
-    height: 100px;
-  }
-}
+
+
+
 @media (max-width: 1044px) {
   .TenderLoving::Before {
     background-image: url('../img/TenderLovingSmallLogo.jpg');
@@ -721,7 +714,7 @@ h4 {
 }
 
 
-@media (max-width: 1044px) {
+@media (max-width: 900px) {
   .div-break-half-a {
     display: block;
     width: 100%;
@@ -762,7 +755,7 @@ h4 {
 }
 
 .space {
-  height: 60px;
+  height: 80px;
 }
 }
 @media (max-width: 724px) {
@@ -797,6 +790,11 @@ h4 {
 }
 }
 .space {
+  height: 100px;
+}
+@media (max-width: 400px) {
+  .space {
   height: 80px;
+}
 }
 /* End Of Media Qs */
