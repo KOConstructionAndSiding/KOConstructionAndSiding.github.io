@@ -797,4 +797,7 @@ h4 {
   height: 80px;
 }
 }
+body {
+  width: 100%;
+}
 /* End Of Media Qs */
