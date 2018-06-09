@@ -761,7 +761,7 @@ h4 {
 .main-header {
   background-attachment: scroll;
   padding: 10px;
-  margin-bottom: -100px;
+  margin-bottom: 0px;
 }
 .contact-div-a {
   display: block;
