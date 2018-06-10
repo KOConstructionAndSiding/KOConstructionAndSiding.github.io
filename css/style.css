@@ -807,7 +807,7 @@ body {
     background-attachment: scroll;
   }
   .div-break-half-b {
-    background-attachment: scroll;
+    background-attachment: scroll !important;
   }
 }
 /* End Of Media Qs */
