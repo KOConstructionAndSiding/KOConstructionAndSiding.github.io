@@ -832,10 +832,7 @@ and (max-device-width : 1024px)  {
           background-repeat: no-repeat;
           background-attachment: fixed !important;
           background-position: center !important;
-          background-size: cover !important;
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
+          background-size: 100% auto;
       }
 }
 @media handheld, only screen and (max-width: 668px) {
