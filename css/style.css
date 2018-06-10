@@ -760,6 +760,7 @@ h4 {
 
 .main-header {
   background-attachment: scroll;
+  background-position: bottom;
   padding: 10px;
   margin-bottom: 0px;
 }
