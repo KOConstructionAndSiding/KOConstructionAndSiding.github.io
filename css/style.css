@@ -775,7 +775,7 @@ h4 {
 
 .main-header {
   background-attachment: scroll !important;
-  background-size: 1000px auto;
+  background-size: cover;
   padding: 10px;
   margin-bottom: 0px;
 }
