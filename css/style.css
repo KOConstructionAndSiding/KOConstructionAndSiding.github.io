@@ -805,6 +805,7 @@ body {
   }
   .div-break-half-b {
     background-attachment: scroll !important;
+    background-position: center;
   }
 }
 /* End Of Media Qs */
