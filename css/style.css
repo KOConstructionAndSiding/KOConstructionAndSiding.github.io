@@ -835,7 +835,4 @@ and (max-device-width : 1024px)  {
           background-size: 100% auto;
       }
 }
-@media handheld, only screen and (max-width: 668px) {
-     .main-header { background-attachment: scroll !important; }
-}
 /* End Of Media Qs */
