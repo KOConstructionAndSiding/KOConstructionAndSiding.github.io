@@ -780,7 +780,7 @@ h4 {
 .div-break-a {
     text-align: center;
     padding: 10px;
-    height: 725px;
+    height: 725px !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
