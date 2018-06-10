@@ -490,6 +490,7 @@ background: linear-gradient(
 
 }
 
+
 .header-amberglen {
   padding-top: 170px;
   height: 75vh;
@@ -769,12 +770,13 @@ h4 {
   height: 80px;
 }
 }
-@media (max-width: 724px) {
+@media (max-width: 767px) {
 
 .main-header {
   background-attachment: scroll;
-  background-size: auto 100%;
-  background-position: center;
+  background-size: cover;
+  background-position: absolute;
+  z-index: -1;
   padding: 10px;
   margin-bottom: 0px;
 }
@@ -804,8 +806,9 @@ h4 {
   height: 100px;
 }
 *{
-    background-attachment: scroll;
+    background-attachment: initial;
   }
+}
 @media (max-width: 400px) {
   .space {
   height: 80px;
@@ -817,18 +820,5 @@ h4 {
 body {
   width: 100%;
 }
-@media only screen and (max-width:749px) {
-  .div-break-a{
-    background-attachment: scroll;
-  }
-  .div-break-half-b {
-    background-attachment: scroll !important;
-    background-position: center;
-  }
-}
-@media (max-width: @iphone-screen) {
-        *{
-          background-attachment: scroll;
-        }
-  }
+
 /* End Of Media Qs */
