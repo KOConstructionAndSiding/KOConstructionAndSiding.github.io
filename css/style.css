@@ -803,5 +803,11 @@ body {
   .main-header {
     background-attachment: scroll;
    }
+  .div-break-a{
+    background-attachment: scroll;
+  }
+  .div-break-half-b {
+    background-attachment: scroll;
+  }
 }
 /* End Of Media Qs */
