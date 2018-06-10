@@ -388,7 +388,7 @@ a:active {
 
   .div-break-a {
   display: block;
-  height: 80vh;
+  height: 550px;
 background: linear-gradient(
                      rgba(20,20,20, .8), 
                      rgba(20,20,20, .8)),
@@ -781,7 +781,6 @@ h4 {
     text-align: center;
     padding: 10px;
     height: 700px;
-    font-size: .75rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
@@ -793,8 +792,12 @@ h4 {
   .space {
   height: 80px;
 }
+.div-break-a {
+  font-size: .85em;
+}
 }
 body {
   width: 100%;
 }
+
 /* End Of Media Qs */
