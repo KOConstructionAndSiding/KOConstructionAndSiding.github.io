@@ -825,7 +825,16 @@ body {
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px)  {
-     .main-header { background-attachment: scroll !important; }
+     @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  { 
+
+.main-header {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+}
 }
 @media handheld, only screen and (max-width: 668px) {
      .main-header { background-attachment: scroll !important; }
