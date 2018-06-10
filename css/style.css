@@ -475,7 +475,7 @@ background: linear-gradient(
   background: url('../img/projects/main.JPG') no-repeat bottom;
   min-height: 50%;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: auto 100%;
   width: 100%;
   position: relative;
 }
@@ -486,7 +486,7 @@ background: linear-gradient(
   background: url('../img/header-amberglen.JPG') no-repeat bottom;
   min-height: 50%;
   background-attachment: scroll;
-  background-size: 250%, 250%;
+  background-size: auto, 100%;
   width: 100%;
   position: relative;
 }
