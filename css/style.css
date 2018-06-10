@@ -800,9 +800,6 @@ body {
   width: 100%;
 }
 @media only screen and (max-width:749px) {
-  .main-header {
-    background-attachment: scroll;
-   }
   .div-break-a{
     background-attachment: scroll;
   }
