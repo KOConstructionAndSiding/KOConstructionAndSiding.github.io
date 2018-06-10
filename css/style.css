@@ -481,12 +481,13 @@ background: linear-gradient(
   background: url('../img/projects/main.JPG') no-repeat bottom;
   min-height: 50%;
   background-attachment: fixed;
-  -webkit-background-size: cover;
+  -webkit-background-size: 2650px 1440px;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
   position: relative;
+  
 
 }
 
@@ -775,8 +776,6 @@ h4 {
 .main-header {
   background-attachment: scroll;
   background-size: cover;
-  background-position: absolute;
-  z-index: -1;
   padding: 10px;
   margin-bottom: 0px;
 }
