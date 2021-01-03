@@ -273,8 +273,8 @@ a:active {
 
 .sidingGalleryImg{
   
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
 }
 
 .sidingTypesA {
@@ -282,7 +282,7 @@ a:active {
   width: 65%;
   float: left;
   margin-top: 75px;
-  height: 300px;
+  height: 400px;
 }
 
 .sidingTypesB {
@@ -293,7 +293,7 @@ a:active {
   background-size: cover;
   background-position:  center top;
   float: right;
-  height: 450px;
+  height: 400px;
 }
 
 .sidingTypesB a:hover { 
