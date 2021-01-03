@@ -439,6 +439,10 @@ a:active {
   border-radius: 3px;
 }
 
+#locations {
+  margin-top: 500px;
+}
+
   .div-break-a {
   display: block;
   height: 550px;
