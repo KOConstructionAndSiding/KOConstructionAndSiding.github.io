@@ -273,13 +273,8 @@ a:active {
 }
 .sidingGalleryImg {
   display: inline-block;
-  width: 35%;
-  background:linear-gradient( rgba(20,20,20, .2), rgba(20,20,20, .2));
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position:  center top;
-  float: right;
-  height: 450px;
+  height: 500px;
+  width: 500px;
 }
 
 .sidingTypesA {
