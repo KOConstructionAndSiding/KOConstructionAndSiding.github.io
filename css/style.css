@@ -267,12 +267,12 @@ a:active {
 .sidingTypesAB{
   display: block;
   margin: 0px;
-  height: 500px;
-  width: 500px;
+  width: auto;
   float: right;
 }
-.sidingGalleryImg {
-  display: inline-block;
+
+.sidinggalleryimg{
+  
   height: 500px;
   width: 500px;
 }
