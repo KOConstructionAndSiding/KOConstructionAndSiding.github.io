@@ -271,11 +271,15 @@ a:active {
   width: 500px;
   float: right;
 }
-
-.sidinggalleryimg{
-  
-  height: 500px;
-  width: 500px;
+.sidingGalleryImg {
+  display: inline-block;
+  width: 35%;
+  background:linear-gradient( rgba(20,20,20, .2), rgba(20,20,20, .2));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center top;
+  float: right;
+  height: 450px;
 }
 
 .sidingTypesA {
